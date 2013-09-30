@@ -28,3 +28,5 @@ alias whois="whois -h whois-servers.net"
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
 alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
 
+# TH-Wildau Proxy (https)
+alias proxy="export https_proxy='http://proxy.th-wildau.de:8080'"

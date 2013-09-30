@@ -1,0 +1,12 @@
+
+# Show hidden files
+defaults write com.apple.Finder AppleShowAllFiles YES
+killall Finder
+
+# 2D Dock
+defaults write com.apple.dock no-glass -boolean YES
+killall Dock
+
+# Finder Quick-Look text selection
+defaults write com.apple.finder QLEnableTextSelection -boolean YES
+killall Finder
