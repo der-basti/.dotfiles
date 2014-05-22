@@ -1,0 +1,14 @@
+#WIFI reconnect
+alias woff="networksetup -setairportpower en0 off"
+alias won="networksetup -setairportpower en0 on"
+alias re="woff;won"
+
+# TH Wildau
+## Change network location (networksetup)
+alias th="scselect TH-Wildau"
+alias thu="scselect Automatic"
+## Google Chrome
+alias thc="~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --proxy-server='proxy.th-wildau.de:8080'"
+## Terminal
+alias thts="export https_proxy='http://proxy.th-wildau.de:8080'"
+alias tht="export http_proxy='http://proxy.th-wildau.de:8080'"
